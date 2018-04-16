@@ -4,4 +4,12 @@ class Owner
   @@all = []
   @@count = 0
 
+  def initialize(species)
+    @name = name
+    @@all << self
+    @@count += 1
+    @species = "human"
+    @pets = {:fishes => [], :dogs => [], :cats => []}
+  end
+
 end
