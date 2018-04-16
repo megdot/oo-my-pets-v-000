@@ -62,4 +62,9 @@ class Owner
     self.pets[:fishes].each {|pet| pet.mood = "nervous"}
     @pets = []
   end
+
+  def list_pets
+    @@all
+  end
+    
 end
