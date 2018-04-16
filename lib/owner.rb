@@ -12,6 +12,10 @@ class Owner
     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
+  def say_species
+    "I am human"
+  end
+
   def self.all
     @@all
   end
@@ -24,5 +28,7 @@ class Owner
     self.all.clear
     @@count = 0
   end
+
+  
 
 end
